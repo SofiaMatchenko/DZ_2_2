@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h2, hr, p
+{
+    margin: 5px 0px;
+}
+
+h2
+{
+    color: white;
+    width: 90px;
+    height: 30px;
+    background-color: red;
+}
+
+h2+p
+{
+    background-color: blue;
+    width: 200px;
+    height: 40px;
+}
+
+hr {
+    height: 1px;
+    background-color: #000500;
+    border: none;
+    width: 250px;
+}
+
+hr+p
+{
+    background-color: yellow;
+    width: 200px;
+    height: 30px;
+}
