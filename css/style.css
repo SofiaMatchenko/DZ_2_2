@@ -1,38 +1,29 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
-h2, hr, p
-{
-    margin: 5px 0px;
+h2, hr, p {
+    margin: 5px 0;
 }
-
-h2
-{
-    color: white;
+h2 {
+    color: #FFFFFF;
     width: 90px;
     height: 30px;
-    background-color: red;
+    background-color: #FF0000;
 }
-
-h2+p
-{
-    background-color: blue;
+h2+p {
+    background-color: #0000FF;
     width: 200px;
     height: 40px;
 }
-
 hr {
     height: 1px;
     background-color: #000500;
     border: none;
     width: 250px;
 }
-
-hr+p
-{
-    background-color: yellow;
+hr+p {
+    background-color: #FFFF00;
     width: 200px;
     height: 30px;
 }
